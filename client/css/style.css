@@ -1,0 +1,40 @@
+.panel {
+    margin: 0 15px 0;
+}
+
+.statusHeader {
+    background-color: #9be0f9;
+    width: 250px;
+    text-align: center;
+    font-family: Impact;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.item, .item-new {
+    background-color: #f9f9f9;
+    border: 1px solid #eeeeee;
+    border-radius: 6px 6px 6px 6px;
+    margin: 6px 0 10px;
+    padding: 8px 9px 9px;
+    width: 250px;
+    position: relative;
+}
+
+.item:hover, .item-new:hover {
+    border-color: #9be0f9;
+    box-shadow: 0 0 5px #a6d5fd;
+}
+
+.addButton {
+    margin: 0 0 10px;
+}
+
+.delButton, .delButton:hover {
+    color: red;
+}
+
+.forwardButton, .forwardButton:hover {
+    margin: 0 5px 0;
+}
+
+

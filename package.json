@@ -1,0 +1,24 @@
+{
+  "name": "taskboard",
+  "version": "1.0.0",
+  "description": "Task Board Scrum",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "mongoose": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriqueschorr/taskBoard.git"
+  },
+  "author": "Henrique Schorr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henriqueschorr/taskBoard/issues"
+  },
+  "homepage": "https://github.com/henriqueschorr/taskBoard#readme"
+}
