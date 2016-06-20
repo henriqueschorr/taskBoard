@@ -21,6 +21,7 @@
 }
 
 .item:hover, .item-new:hover {
+    cursor: pointer;
     border-color: #9be0f9;
     box-shadow: 0 0 5px #a6d5fd;
 }
@@ -33,8 +34,9 @@
     color: red;
 }
 
-.forwardButton, .forwardButton:hover {
-    margin: 0 5px 0;
+.assignedTo {
+    font-style: oblique;
+    font-size: smaller;
 }
 
 

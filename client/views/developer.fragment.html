@@ -1,0 +1,26 @@
+<!-- Doing Modal -->
+<div class="modal fade" id="doingTask" tabindex="-1" role="dialog" aria-labelledby="Developer Name">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Developer Name</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label>Developer</label>
+                        <input type="text" class="form-control" ng-model="task.developer"
+                               placeholder="Developer Name">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" ng-click="doingTask()">Ok
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
