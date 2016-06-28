@@ -96,5 +96,8 @@ app.delete('/api/tasks/:_id', function (req, res) {
     });
 });
 
-app.listen(3000);
+
+var port = Number(process.env.PORT || 3000);
+
+app.listen(port);
 console.log('Running on port 3000...');
